@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+    <title>PTT VCL</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">ໜ້າທຳອິດ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ຮ້ານຄ້າທັງໝົດ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promotions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ຕິດຕໍ່ເຮົາ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ເຂົ້າສູ່ລະບົບ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ສະໝັກສະມາຊິກ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner banner-show" id="banner_ptt">
+        <div class="container-fluid">
+            <div class="banner-text" >
+                <h1 class="text-upper" data-aos="fade-right" data-aos-duration="1000">ptt vcl station</h1>
+                <p data-aos="fade-left" data-aos-duration="1000"> 
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque doloremque praesentium eveniet fuga porro culpa, iste dolorum quis libero numquam ipsa
+                </p>
+                <!-- <a href="#" class="my-btn text-upper" data-aos="fade-right" data-aos-duration="1000">More Detail</a> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="banner banner-amazon banner-hide" id="banner_amazon">
+        <div class="container-fluid">
+            <div class="banner-text" >
+                <h1 class="text-upper" data-aos="fade-right" data-aos-duration="1000">amazon</h1>
+                <p data-aos="fade-left" data-aos-duration="1000"> 
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque doloremque praesentium eveniet fuga porro culpa, iste dolorum quis libero numquam ipsa
+                </p>
+                <!-- <a href="#" class="my-btn text-upper" data-aos="fade-right" data-aos-duration="1000">More Detail</a> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="banner banner-jiffy banner-hide" id="banner_jiffy">
+        <div class="container-fluid">
+            <div class="banner-text" >
+                <h1 class="text-upper" data-aos="fade-right" data-aos-duration="1000">jiffy</h1>
+                <p data-aos="fade-left" data-aos-duration="1000"> 
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque doloremque praesentium eveniet fuga porro culpa, iste dolorum quis libero numquam ipsa
+                </p>
+                <!-- <a href="#" class="my-btn text-upper" data-aos="fade-right" data-aos-duration="1000">More Detail</a> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-box">
+        <div class="owl-carousel store-slide">
+            <div class="store-item" data-id="amazon">
+                <img src="img/amazon.jpg" alt="" data-id="amazon">
+            </div>
+            <div class="store-item" data-id="jiffy">
+                <img src="img/Jiffy-LAO.jpg" alt="" data-id="jiffy"> 
+            </div>
+            <div class="store-item" data-id="amazon">
+                <img src="img/amazon.jpg" alt="" data-id="amazon">
+            </div>
+            <div class="store-item" data-id="jiffy" >
+                <img src="img/Jiffy-LAO.jpg" alt="" data-id="jiffy">
+            </div>
+            <div class="store-item" data-id="amazon">
+                <img src="img/amazon.jpg" alt="" data-id="amazon">
+            </div>
+            <div class="store-item" data-id="jiffy">
+                <img src="img/Jiffy-LAO.jpg" alt="" data-id="jiffy">
+            </div>
+        </div>
+    </div>
+
+    <div class="main-store">
+        <div class="main-store-header">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <div class="main-store-logo-box align-items-center" id="btn_open_store_popup">
+                    <div class="store-logo">
+                        <img src="img/amazon.jpg" alt="">
+                    </div>
+                    <span>
+                        <i class="fa fa-fw fa-angle-down"></i>
+                    </span>
+                </div>
+                <button class="close-store">
+                    <img src="img/close.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="main-store-body d-flex">
+            <div class="container-menu" data-simplebar>
+                <div class="container-fluid">
+                    <div class="owl-carousel category">
+                        <div class="category-item">all</div>
+                        <div class="category-item">Ice Coffee</div>
+                        <div class="category-item">Hot Coffee</div>
+                        <div class="category-item">Cake</div>
+                        <div class="category-item">Ice Coffee</div>
+                        <div class="category-item">Hot Coffee</div>
+                        <div class="category-item">Cake</div>
+                        <div class="category-item">Ice Coffee</div>
+                        <div class="category-item">Hot Coffee</div>
+                        <div class="category-item">Cake</div>
+                        <div class="category-item">Ice Coffee</div>
+                        <div class="category-item">Hot Coffee</div>
+                        <div class="category-item">Cake</div>
+                    </div>
+
+                    <ul class="menu-list">
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/ice-coffee.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/hot-coffee.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/cake.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/ice-coffee.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/hot-coffee.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/cake.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/ice-coffee.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/hot-coffee.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/cake.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/ice-coffee.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/hot-coffee.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-img">
+                                <img src="img/cake.jpg" alt="">
+                                <button class="btn-add-to-cart">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="menu-detail">
+                                <div class="menu-title">ice coffee</div>
+                                <div class="menu-price">20.000 kip</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-cart">
+                <div id="cart_box">
+                    <h2>ກະຕ່າສິນຄ້າ</h2>
+                    <div class="line"></div>
+                    <ul class="order-detail">
+                        <li>
+                            <div class="order-name">hot coffee</div>
+                            <div class="order-qty">
+                                <button class="btn-minus">
+                                    <i class="fa fa-fw fa-minus"></i>
+                                </button>
+                                <input type="text" class="qty-input" value="1">
+                                <button class="btn-plus">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="order-price">20.000</div>
+                        </li>
+                        <li>
+                            <div class="order-name">Ice coffee</div>
+                            <div class="order-qty">
+                                <button class="btn-minus">
+                                    <i class="fa fa-fw fa-minus"></i>
+                                </button>
+                                <input type="text" class="qty-input" value="1">
+                                <button class="btn-plus">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="order-price">20.000</div>
+                        </li>
+                        <li>
+                            <div class="order-name">cake</div>
+                            <div class="order-qty">
+                                <button class="btn-minus">
+                                    <i class="fa fa-fw fa-minus"></i>
+                                </button>
+                                <input type="text" class="qty-input" value="2">
+                                <button class="btn-plus">
+                                    <i class="fa fa-fw fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="order-price">40.000</div>
+                        </li>
+                    </ul>
+                    <div class="line"></div>
+                    <div class="total">
+                        ລວມ. <span>80.000 kip</span>
+                    </div>
+                    <div class="use-discount" id="use_discount">
+                        <span>ນຳໃຊ້ສ່ວນຫຼຸດ</span>
+                    </div>
+                    <div class="total">
+                        ລວມມູນຄ່າ. <span>80.000 kip</span>
+                    </div>
+                    <button class="main-btn" id="choose_payment">
+                        ເລືອກວີທີການຊຳລະເງິນ
+                    </button>
+                </div>
+                <div id="payment_box">
+                    <div class="d-flex">
+                        <span id="btn_back_to_cart">
+                            <i class="fa fa-fw fa-arrow-left"></i>
+                        </span>
+                        <h2>ເລືອກວີທີການຊຳລະເງິນ</h2>
+                    </div>
+                    <div class="line"></div>
+                    <div class="payment-choice">
+                        <div class="form-check">
+                            <input class="form-check-input select-payment" 
+                            value="one_pay" type="radio" id="one_pay" name="payment" checked>
+                            <label class="form-check-label" for="one_pay">
+                                One Pay
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input select-payment" 
+                            value="cash" type="radio" id="cash" name="payment">
+                            <label class="form-check-label" for="cash">
+                                ເງິນສົດ
+                            </label>
+                        </div>
+                        <div class="payment-body">
+                            <img src="img/qr.png">
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="total">
+                        ລວມມູນຄ່າ. <span>80.000 kip</span>
+                    </div>
+                    <button class="main-btn">
+                        ຊຳລະເງິນ
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="discount-box" id="discount_box">
+        <div class="discount-box-body">
+            <button id="close_discount_box">
+                <img src="img/close.png" alt="">
+            </button>
+            <input type="text" class="form-control" placeholder="ລະຫັດສ່ວນຫຼຸດ">
+            <button class="main-btn" id="use_discount_popup">
+                ນຳໃຊ້
+            </button>
+        </div>
+    </div>
+
+    <div class="discount-box" id="store_popup_box">
+        <div class="discount-box-body">
+            <button class="btn-close" id="close_store_popup_box">
+                <img src="img/close.png" alt="">
+            </button>
+            <ul class="store-list-popup">
+                <li>
+                    <div class="store-logo">
+                        <img src="img/amazon.jpg" alt="">
+                    </div>
+                    <span>amazon</span>
+                </li>
+                <li>
+                    <div class="store-logo">
+                         <img src="img/jiffy.jpg" alt="">
+                    </div>
+                    <span>jiffy</span>
+                </li>
+                <li>
+                    <div class="store-logo">
+                        <img src="img/amazon.jpg" alt="">
+                    </div>
+                    <span>amazon</span>
+                </li>
+                <li>
+                    <div class="store-logo">
+                        <img src="img/amazon.jpg" alt="">
+                    </div>
+                    <span>amazon</span>
+                </li>
+                <li>
+                    <div class="store-logo">
+                         <img src="img/jiffy.jpg" alt="">
+                    </div>
+                    <span>jiffy</span>
+                </li>
+                <li>
+                    <div class="store-logo">
+                        <img src="img/amazon.jpg" alt="">
+                    </div>
+                    <span>amazon</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="aos-master/dist/aos.js"></script>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <script>
+       $(document).ready(function(){
+            $(".store-slide").owlCarousel({
+                items: 4,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                navText: [],
+            });
+
+            $(".category").owlCarousel({
+                items: 10,
+                nav: false,
+                navText: [],
+                autoplay: false,
+                autoWidth: true
+            });
+
+            AOS.init();
+        });
+
+        function onMouseOver(event) {
+            const dataId = event.target.dataset.id;
+            const bannerElems = [...document.querySelectorAll('.banner')];
+            bannerElems.forEach(bannerElem => {
+                bannerElem.classList.add('banner-hide');
+                bannerElem.classList.remove('banner-show');
+            });
+
+            const currentElem = document.getElementById(`banner_${dataId}`);
+
+            if (currentElem) {
+                currentElem.classList.remove('banner-hide');
+                currentElem.classList.add('banner-show');
+            }
+        }
+
+        function onMouseOut() {
+            const bannerElems = [...document.querySelectorAll('.banner')];
+            bannerElems.forEach(bannerElem => {
+                bannerElem.classList.add('banner-hide');
+                bannerElem.classList.remove('banner-show');
+            });
+            const pttElem = document.getElementById(`banner_ptt`);
+            pttElem.classList.add('banner-show');
+            pttElem.classList.remove('banner-hide');
+        }
+
+        function onClickStoreItem() {
+            const mainStoreElem = document.querySelector('.main-store');
+            mainStoreElem.classList.add('show-main-store');
+        }
+
+        function closeMainStore() {
+            const mainStoreElem = document.querySelector('.main-store');
+            mainStoreElem.classList.remove('show-main-store');
+
+            const cartBoxElem = document.getElementById('cart_box');
+            cartBoxElem.style.transform = "translateX(0)";
+
+            const paymentBoxElem = document.getElementById('payment_box');
+            paymentBoxElem.style.transform = "translateX(0)";
+        }
+
+        function run() {
+            // slide store
+            const storeItemElems = [...document.querySelectorAll('.store-item')];
+            const closeStoreElem = document.querySelector('.close-store');
+            
+            storeItemElems.forEach(storeItemElem => {
+                storeItemElem.addEventListener('mouseover', onMouseOver);
+                storeItemElem.addEventListener('mouseout', onMouseOut);
+                storeItemElem.addEventListener('click', onClickStoreItem);
+            });
+
+            closeStoreElem.addEventListener('click', closeMainStore)
+            // end slide store
+
+            // discount
+            const useDiscountElem = document.getElementById('use_discount');
+            const closeDiscountBoxElem = document.getElementById('close_discount_box');
+
+            useDiscountElem.addEventListener('click', () => {
+                const discountBoxElem = document.getElementById('discount_box');
+                discountBoxElem.classList.add('discount-box-active');
+            });
+
+            closeDiscountBoxElem.addEventListener('click', () => {
+                const discountBoxElem = document.getElementById('discount_box');
+                discountBoxElem.classList.remove('discount-box-active');
+            });
+
+            const useDiscountPopupElem = document.getElementById('use_discount_popup');
+            useDiscountPopupElem.addEventListener('click', () => {
+                const discountBoxElem = document.getElementById('discount_box');
+                discountBoxElem.classList.remove('discount-box-active');
+            });
+            // end discount
+
+            // payment
+            const choosePaymentElem = document.getElementById('choose_payment');
+            choosePaymentElem.addEventListener('click', () => {
+                const cartBoxElem = document.getElementById('cart_box');
+                cartBoxElem.style.transform = "translateX(-100%)";
+
+                const paymentBoxElem = document.getElementById('payment_box');
+                paymentBoxElem.style.transform = "translateX(-100%)";
+            });
+
+            const btnBackToCartElem = document.getElementById('btn_back_to_cart');
+            btnBackToCartElem.addEventListener('click', () => {
+                const cartBoxElem = document.getElementById('cart_box');
+                cartBoxElem.style.transform = "translateX(0)";
+
+                const paymentBoxElem = document.getElementById('payment_box');
+                paymentBoxElem.style.transform = "translateX(0)";
+            });
+
+            const selectPaymentElems = [...document.querySelectorAll('.select-payment')];
+            selectPaymentElems.forEach(selectPaymentElem => {
+                selectPaymentElem.addEventListener('input', event => {
+                    const paymentBodyElem = document.querySelector('.payment-body');
+                    const payment = event.target.value.toLowerCase();
+                    if (payment === 'one_pay') {
+                        paymentBodyElem.innerHTML = '<img src="img/qr.png">';
+                    } else {
+                        paymentBodyElem.innerHTML = '';
+                    }
+                });
+            });
+            // end payment
+
+            // store popup
+            const btnOpenStorePopup = document.getElementById('btn_open_store_popup');
+            btnOpenStorePopup.addEventListener('click', () => {
+                const storePopupBoxElem = document.getElementById('store_popup_box');
+                storePopupBoxElem.classList.add('discount-box-active');
+            });
+
+            const closeStorePopupBoxElem = document.getElementById('close_store_popup_box');
+            closeStorePopupBoxElem.addEventListener('click', () => {
+                const storePopupBoxElem = document.getElementById('store_popup_box');
+                storePopupBoxElem.classList.remove('discount-box-active');
+            });
+
+            const storePopupItemElems = [...document.querySelectorAll('ul.store-list-popup > li')];
+            storePopupItemElems.forEach(storePopupItemElem => {
+                storePopupItemElem.addEventListener('click', () => {
+                    const storePopupBoxElem = document.getElementById('store_popup_box');
+                    storePopupBoxElem.classList.remove('discount-box-active');
+                });
+            });
+            // end store popup
+        }
+
+        run();
+    </script>
+</body>
+
+</html>
