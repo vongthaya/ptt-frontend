@@ -679,4 +679,80 @@ button:focus {
 .order-trash:hover {
   color: #26abe3;
 }
+
+.narbar-solid {
+  border-bottom: 1px solid #ece7e7;
+  background-color: #fff;
+}
+
+.narbar-solid .navbar-brand {
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.narbar-solid .nav-link {
+  color: #26abe3 !important;
+  padding: 5px 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.narbar-solid .nav-link:hover {
+  color: #fff !important;
+  background-color: #26abe3;
+  border-radius: 20px;
+}
+
+.narbar-solid .nav-link::after {
+  display: none;
+}
+
+.narbar-solid .active .nav-link {
+  background-color: #26abe3;
+  border-radius: 20px;
+  color: #fff !important;
+  padding: 5px 20px;
+}
+
+.bg-gray {
+  background-color: #f0f5f8;
+}
+
+.login-box {
+  width: 40%;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "noto_serif_laoregular";
+  font-size: 14px !important;
+}
+
+.login-box button {
+  font-size: 14px !important;
+}
+
+.login-box label, .login-box h4 {
+  font-weight: 600;
+}
+
+.login-box h4 {
+  font-size: 19px;
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
