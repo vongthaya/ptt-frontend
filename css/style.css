@@ -61,7 +61,7 @@
 
 .navbar .nav-item {
   text-transform: uppercase;
-  font-family: "Dhyana", sans-serif;
+  font-family: "noto_serif_laoregular";
 }
 
 .navbar .nav-link {
@@ -97,12 +97,10 @@
   color: #fff;
   z-index: 1000;
   width: 30%;
-  font-family: "Dhyana", sans-serif;
 }
 
 .banner-text h1 {
   font-size: 60px;
-  font-family: "Dhyana", sans-serif;
   font-weight: 600;
 }
 
@@ -317,7 +315,7 @@
 .category-item {
   background-color: #26abe3;
   color: #fff;
-  font-family: "Dhyana", sans-serif;
+  font-family: "noto_serif_laoregular";
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
@@ -360,7 +358,7 @@
 
 .menu-list .menu-detail {
   padding: 18px;
-  font-family: "Dhyana", sans-serif;
+  font-family: "noto_serif_laoregular";
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -411,7 +409,7 @@ button:focus {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  font-family: "Dhyana", sans-serif;
+  font-family: "noto_serif_laoregular";
 }
 
 .container-cart h2 {
@@ -487,7 +485,7 @@ button:focus {
 .main-btn {
   background-color: #26abe3;
   color: #fff;
-  font-family: "Dhyana", sans-serif;
+  font-family: "noto_serif_laoregular";
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
@@ -529,7 +527,7 @@ button:focus {
   transition: .3s;
   opacity: 0;
   visibility: hidden;
-  font-family: "Dhyana", sans-serif;
+  font-family: "noto_serif_laoregular";
 }
 
 .discount-box-body {
@@ -611,6 +609,7 @@ button:focus {
   text-transform: capitalize;
   margin-bottom: 10px;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .store-list-popup > li:hover .store-logo {
@@ -664,5 +663,9 @@ button:focus {
   font-size: 24px;
   color: #26abe3;
   margin-top: 50px;
+}
+
+#discount_value {
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/dhyana.css);
 
 $mainColor: #26abe3;
-$mainFont: 'Dhyana', sans-serif;
+$mainFont: 'noto_serif_laoregular';
 
 .navbar-brand {
     img {
@@ -99,10 +99,10 @@ $mainFont: 'Dhyana', sans-serif;
     color: #fff;
     z-index: 1000;
     width: 30%;
-    font-family: $mainFont;
+    // font-family: $mainFont;
     h1 {
         font-size: 60px;
-        font-family: $mainFont;
+        // font-family: $mainFont;
         font-weight: 600;
     }
 }
@@ -537,6 +537,7 @@ button:focus {
         text-transform: capitalize;
         margin-bottom: 10px;
         cursor: pointer;
+        font-size: 18px;
         &:hover .store-logo {
             transform: scale(1.1);
         }
@@ -583,4 +584,8 @@ button:focus {
     font-size: 24px;
     color: $mainColor;
     margin-top: 50px;
+}
+
+#discount_value {
+    font-size: 20px;
 }
