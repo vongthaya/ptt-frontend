@@ -96,14 +96,17 @@ function run() {
     });
 
     const selectPaymentElems = [...document.querySelectorAll('.select-payment')];
+    const paymentBodyElem = document.querySelector('.payment-body');
+    const paymentFooterElem = document.querySelector('.payment-footer');
     selectPaymentElems.forEach(selectPaymentElem => {
         selectPaymentElem.addEventListener('input', event => {
-            const paymentBodyElem = document.querySelector('.payment-body');
             const payment = event.target.value.toLowerCase();
             if (payment === 'one_pay') {
-                paymentBodyElem.innerHTML = '<img src="img/qr.png">';
+                createOnePayQrCode();
+                paymentFooterElem.innerHTML = '';
             } else {
                 paymentBodyElem.innerHTML = '';
+                paymentFooterElem.innerHTML = `<button class="main-btn">ຢືນຢັນການສັ່ງຊື້</button>`;
             }
         });
     });
