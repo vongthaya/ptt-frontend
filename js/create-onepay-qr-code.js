@@ -28,7 +28,7 @@ function createOnePayQrCode() {
         paymentBodyElem.innerHTML = `
             <div class="line"></div>
             <div style="font-weight: 600;margin: 10px 0 20px">
-                ກະລຸນາສະແກນ QR CODE ດ້ວຍ BCEL ONEPAY ເພື່ອທຳການຊຳລະເງິນ 
+                ກະລຸນາສະແກນ QR CODE ດ້ວຍ BCEL ONE PAY ເພື່ອທຳການຊຳລະເງິນ 
             </div>
         `;
 
