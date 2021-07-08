@@ -41,6 +41,20 @@ function closeMainStore() {
     paymentBoxElem.style.transform = "translateX(0)";
 }
 
+function decreaseQty(id) {
+    const qtyInputElem = document.getElementById(`qty-input${id}`);
+    let qty = qtyInputElem.textContent.trim() * 1;
+    if (qty > 1) {
+        qtyInputElem.textContent = --qty;
+    }
+}
+
+function increaseQty(id) {
+    const qtyInputElem = document.getElementById(`qty-input${id}`);
+    let qty = qtyInputElem.textContent.trim() * 1;
+    qtyInputElem.textContent = ++qty;
+}
+
 function run() {
     // slide store
     const storeItemElems = [...document.querySelectorAll('.store-item')];

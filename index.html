@@ -306,11 +306,11 @@
                         <li>
                             <div class="order-name">hot coffee</div>
                             <div class="order-qty">
-                                <button class="btn-minus">
+                                <button class="btn-minus" onclick="decreaseQty(1)">
                                     <i class="fa fa-fw fa-minus"></i>
                                 </button>
-                                <span class="qty-input">1</span>
-                                <button class="btn-plus">
+                                <span class="qty-input" id="qty-input1">1</span>
+                                <button class="btn-plus" onclick="increaseQty(1)">
                                     <i class="fa fa-fw fa-plus"></i>
                                 </button>
                             </div>
@@ -319,11 +319,11 @@
                         <li>
                             <div class="order-name">Ice coffee</div>
                             <div class="order-qty">
-                                <button class="btn-minus">
+                                <button class="btn-minus" onclick="decreaseQty(2)">
                                     <i class="fa fa-fw fa-minus"></i>
                                 </button>
-                                <span class="qty-input">1</span>
-                                <button class="btn-plus">
+                                <span class="qty-input" id="qty-input2">1</span>
+                                <button class="btn-plus" onclick="increaseQty(2)">
                                     <i class="fa fa-fw fa-plus"></i>
                                 </button>
                             </div>
@@ -332,11 +332,11 @@
                         <li>
                             <div class="order-name">cake</div>
                             <div class="order-qty">
-                                <button class="btn-minus">
+                                <button class="btn-minus" onclick="decreaseQty(3)">
                                     <i class="fa fa-fw fa-minus"></i>
                                 </button>
-                                <span class="qty-input">1</span>
-                                <button class="btn-plus">
+                                <span class="qty-input" id="qty-input3">1</span>
+                                <button class="btn-plus" onclick="increaseQty(3)">
                                     <i class="fa fa-fw fa-plus"></i>
                                 </button>
                             </div>
@@ -345,13 +345,14 @@
                     </ul>
                     <div class="line"></div>
                     <div class="total">
-                        ລວມ. <span>80.000 kip</span>
+                        ລວມ. <span>80.000 ກີບ</span>
                     </div>
-                    <div class="use-discount" id="use_discount">
-                        <span>ນຳໃຊ້ສ່ວນຫຼຸດ</span>
+                    <div class="use-discount">
+                        <span id="use_discount">ນຳໃຊ້ສ່ວນຫຼຸດ.</span>
+                        <span>20.000</span> ກີບ
                     </div>
                     <div class="total">
-                        ລວມມູນຄ່າ. <span>80.000 kip</span>
+                        ລວມມູນຄ່າ. <span>80.000</span> ກີບ
                     </div>
                     <button class="main-btn" id="choose_payment">
                         ເລືອກວີທີການຊຳລະເງິນ

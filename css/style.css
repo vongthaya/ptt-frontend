@@ -507,9 +507,12 @@ button:focus {
 .use-discount {
   text-align: right;
   font-weight: 600;
+  margin: 10px 0;
+}
+
+.use-discount #use_discount {
   color: #26abe3;
   cursor: pointer;
-  margin: 10px 0;
 }
 
 .discount-box {

@@ -449,9 +449,11 @@ button:focus {
 .use-discount {
     text-align: right;
     font-weight: 600;
-    color: $mainColor;
-    cursor: pointer;
     margin: 10px 0;
+    #use_discount {
+        color: $mainColor;
+        cursor: pointer;
+    }
 }
 
 .discount-box {
