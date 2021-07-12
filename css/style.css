@@ -1,4 +1,3 @@
-@import url(//fonts.googleapis.com/earlyaccess/dhyana.css);
 .navbar-brand img {
   width: 60px;
   border-radius: 50%;
@@ -61,7 +60,7 @@
 
 .navbar .nav-item {
   text-transform: uppercase;
-  font-family: "noto_serif_laoregular";
+  font-family: "noto_sans_laoregular";
 }
 
 .navbar .nav-link {
@@ -244,7 +243,7 @@
   margin: 0 10px;
 }
 
-.main-store {
+.main-store, .profile-box {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -315,7 +314,7 @@
 .category-item {
   background-color: #26abe3;
   color: #fff;
-  font-family: "noto_serif_laoregular";
+  font-family: "noto_sans_laoregular";
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
@@ -358,7 +357,7 @@
 
 .menu-list .menu-detail {
   padding: 18px;
-  font-family: "noto_serif_laoregular";
+  font-family: "noto_sans_laoregular";
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -409,7 +408,7 @@ button:focus {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  font-family: "noto_serif_laoregular";
+  font-family: "noto_sans_laoregular";
 }
 
 .container-cart h2 {
@@ -485,7 +484,7 @@ button:focus {
 .main-btn {
   background-color: #26abe3;
   color: #fff;
-  font-family: "noto_serif_laoregular";
+  font-family: "noto_sans_laoregular";
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
@@ -527,7 +526,7 @@ button:focus {
   transition: .3s;
   opacity: 0;
   visibility: hidden;
-  font-family: "noto_serif_laoregular";
+  font-family: "noto_sans_laoregular";
 }
 
 .discount-box-body {
@@ -735,7 +734,7 @@ button:focus {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: "noto_serif_laoregular";
+  font-family: "noto_sans_laoregular";
   font-size: 14px !important;
 }
 
@@ -754,5 +753,206 @@ button:focus {
 .facebook-btn {
   background-color: #3b5998;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn_profile {
+  cursor: pointer;
+}
+
+.profile-sidebar {
+  padding: 90px 10px 20px;
+  list-style: none;
+  background-color: #fff;
+  position: fixed;
+  height: 100%;
+}
+
+.profile-sidebar a {
+  color: #fff;
+  background-color: #26abe3;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.profile-sidebar a:hover {
+  background-color: #138bbd;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.profile-body {
+  width: 100%;
+  padding: 94px 20px 60px 88px;
+}
+
+.la-font {
+  font-family: "noto_sans_laoregular";
+}
+
+.profile-header {
+  font-family: "noto_sans_laoregular";
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.profile-body-inner {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.my-order {
+  background-color: #fff;
+  margin-top: 15px;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.my-order-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #ece7e7;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.my-order-store-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.my-order-store-logo img {
+  width: 100%;
+}
+
+.my-order-body {
+  list-style: none;
+  font-family: "noto_sans_laoregular";
+  padding: 0;
+}
+
+.my-order-body li > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  color: #000;
+  text-decoration: none;
+  padding: 7px 16px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.my-order-body li > a:hover {
+  background-color: #26abe32e;
+}
+
+.my-order-product {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.my-order-product-qty, .my-order-product-price {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+}
+
+.my-order-product-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.my-order-product-img img {
+  height: 100%;
+}
+
+.profile-box {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.navbar-solid {
+  background-color: #fff;
+  z-index: 100000;
+  border-bottom: 1px solid #ece7e7;
+}
+
+.navbar-solid .navbar-brand {
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-solid .navbar-brand img {
+  width: 88%;
+  border-radius: 0;
+}
+
+.navbar-solid .container-fluid {
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-solid .nav-link {
+  color: #26abe3 !important;
+}
+
+.normal-btn {
+  width: auto;
+  padding: 9px 20px;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */

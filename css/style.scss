@@ -1,7 +1,5 @@
-@import url(//fonts.googleapis.com/earlyaccess/dhyana.css);
-
 $mainColor: #26abe3;
-$mainFont: 'noto_serif_laoregular';
+$mainFont: 'noto_sans_laoregular';
 
 .navbar-brand {
     img {
@@ -227,7 +225,7 @@ $mainFont: 'noto_serif_laoregular';
     margin: 0 10px;
 }
 
-.main-store {
+.main-store, .profile-box {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -663,4 +661,163 @@ button:focus {
 .facebook-btn {
     background-color: #3b5998;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn_profile {
+    cursor: pointer;
+}
+
+.profile-sidebar {
+    padding: 90px 10px 20px;
+    list-style: none;
+    background-color: #fff;
+    position: fixed;
+    height: 100%;
+    a {
+        color: #fff;
+        background-color: $mainColor;
+        border: none;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        transition: .3s;
+        cursor: pointer;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        &:hover {
+            background-color: #138bbd;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+    }
+}
+
+.profile-body {
+    width: 100%;
+    padding: 94px 20px 60px 88px;
+}
+
+.la-font {
+    font-family: $mainFont;
+}
+
+.profile-header {
+    font-family: $mainFont;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.profile-body-inner {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.my-order {
+    background-color: #fff;
+    margin-top: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.my-order-header {
+    display: flex;
+    border-bottom: 1px solid #ece7e7;
+    padding: 20px;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.my-order-store-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    img {
+        width: 100%;
+    }
+}
+
+.my-order-body {
+    list-style: none;
+    font-family: $mainFont;
+    padding: 0;
+    li > a {
+        display: flex;
+        width: 100%;
+        color: #000;
+        text-decoration: none;
+        padding: 7px 16px;
+        transition: .3s;
+        &:hover {
+            background-color: #26abe32e;
+        }
+    }
+}
+
+.my-order-product {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.my-order-product-qty, .my-order-product-price {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.my-order-product-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 10px;
+    img {
+        height: 100%;
+    }
+}
+
+.profile-box {
+    transform: translateY(0);
+}
+
+.navbar-solid {
+    background-color: #fff;
+    z-index: 100000;
+    border-bottom: 1px solid #ece7e7;
+    .navbar-brand{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 88%;
+            border-radius: 0;
+        }
+    }
+    .container-fluid {
+        width: 100%;
+        padding: 0;
+    }
+    .nav-link {
+        color: $mainColor!important;
+    }
+}
+
+.normal-btn {
+    width: auto;
+    padding: 9px 20px;
+    font-size: 16px;
 }
